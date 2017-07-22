@@ -1,4 +1,10 @@
 /*codigo reutilizable*/
 /*Estilos de reset*/
+* {
+  margin: 0;
+  padding: 0; }
+
+#who {
+  background-image: url(../img/img_city.jpg); }
 
 /*# sourceMappingURL=main.css.map */
