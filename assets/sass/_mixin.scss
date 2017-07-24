@@ -1,1 +1,29 @@
 /*codigo reutilizable*/
+@mixin box-shadow() {
+    -webkit-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    -moz-box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+    box-shadow: 2px 2px 23px 0px rgba(50, 50, 50, 0.61);
+}
+
+@mixin btn-pink(){
+	background-color: #e84d88;
+	color: white;
+	font-size: 1em;
+	font-weight: bolder;
+}
+
+@mixin font-carrusel(){
+	color: white;
+	font-size: 4em;
+	font-weight: bolder;
+	text-shadow: none;
+}
+
+@mixin padding-caja(){
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+@mixin padding-titulo(){
+	padding-bottom: 40px;
+}
